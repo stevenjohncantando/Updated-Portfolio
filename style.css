@@ -1,0 +1,64 @@
+.name {
+    font-size: 35px;
+    font-family: 'Poiret One', Cursive;
+    font-weight: bold;
+}
+
+#picture {
+    float: left;
+    margin-right: 20px;
+}
+
+
+.navContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.contactInformation {
+    border: solid 1px darkgray;
+    background: rgba(204, 204, 204, 0.5);
+}
+
+#aboutContainer, #contactContainer {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 50px;
+    
+}
+
+#portfolioContainer {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+#projectLink {
+    width: 50%;
+    margin: auto;
+}
+
+.contactInformation, h1 {
+    font-family: 'Gruppo', cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+}
+    
+ .card-body, a  {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
