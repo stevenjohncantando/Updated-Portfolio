@@ -47,6 +47,7 @@ body {
     width: 75%;
     margin: auto;
     text-align: center;
+    margin-bottom: 10rem;
 }
 .icon {
     margin: 5px;
@@ -58,9 +59,6 @@ body {
 }
 #aboutContainer img {
     margin-bottom: 30px;
-}
-#aboutContainer {
-    margin-bottom: 10rem;
 }
 
 
