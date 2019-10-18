@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-    <title>Steven John Cantando</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS -->
+    <script src="https://kit.fontawesome.com/b540717dc9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!-- JAVASCRIPT-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>stevenJohnPortfolio</title>
 </head>
 
-<body id="home" class="scrollspy">
+<body id="home">
+    <!-- START NAVBAR -->
+
     <div class="navbar-fixed">
         <nav class="black">
             <div class="navContainer">
@@ -34,7 +43,7 @@
                             <a href="index.html#contactContainer" class="contact">CONTACT</a>
                         </li>
                         <li>
-                            <a href="index.html#port" class="portfolio">PORTFOLIO</a>
+                            <a href="index.html#portContainer" class="portfolio">PORTFOLIO</a>
 
                         </li>
                     </ul>
@@ -43,108 +52,82 @@
         </nav>
     </div>
 
-    <!---------------------------->
+    <!-- END NAVBAR -->
+    <!---------------------------------------->
+    <!-- START SLIDER IMAGES -->
+
     <section class="slider">
         <ul class="slides">
             <li>
-                <img
-                    src="https://cdn.gearpatrol.com/wp-content/uploads/2017/11/Ultimate-Desk-Setups-Gear-Patrol-Mobile-1-1940x1300.jpg">
+                <img src="images/desk-image3.jpg">
             </li>
             <li>
-                <img src="https://www.evermotion.org/files/tutorials_content/uploads/1_AI33_005_PP_copy.jpg">
+                <img src="images/desk-image2.jpg">
             </li>
             <li>
-                <img src="https://aaronggreen.org/wp-content/uploads/2018/08/Modern-Office-Furniture-Style.jpg">
+                <img src="images/desk-image.jpg">
             </li>
         </ul>
-
     </section>
 
-    <!---------------------------->
+    <!-- END SLIDER IMAGES -->
+    <!---------------------------------------->
+    <!-- START LANDING PAGE -->
 
-    <div id="aboutContainer">
-        <br>
-        <div class="header">
-            <h1>About Me</h1>
+    <section class="landingpage">
+       <div class="introduction">
+            <h1>Web Developer || Designer</h1>
+           <i class="icon fab fa-instagram fa-3x"></i>
+            <i class="icon fab fa-linkedin fa-3x"></i>
+            <i class="icon fab fa-github fa-3x"></i> 
+        </div> 
+       <!--  <div class="enterSite">
+            <a class="ct-btn-scroll ct-js-btn-scroll" id="scrollButton" href="#section2"><img alt="Arrow Down Icon"
+                    src="https://www.solodev.com/assets/anchor/arrow-down.png"></a> 
+        </div>  --> 
+    </section>
+
+    <!-- END LANDING PAGE  -->
+    <!---------------------------------------->
+    <!-- START ABOUT SECTION-->
+
+    <section class="aboutContainer">
+        <h1>About Me</h1>
+        <div class="col-lg-12">
+            <img src="images/profilePic.jpeg" height="300px" width="300px" alt="">
+            <p class="bio">Hello! My name is Steven John Cantando, and I am a front end web developer at JW Pepper Sheet
+                Music. I have a passion for UI / UX design, photography, and graphic design. Aside from being a web
+                developer, I spend my free time playing percussion instruments, painting, working on physical fitness,
+                and playing ice hockey. </p>
         </div>
-        <div class="content">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="images/profilePic.jpeg" id="picture"
-                        width="300px" height="300px">
-                </div>
-                <div class="col-md-8">
-                    <div class="info">
-                        <p>
-                            <br> 
-                            <br>
+    </section>
 
-                            Hello! My name is Steven John Cantando, and I am currently a front end web developer at JW Pepper. 
-                            I am a full stack web developer, proficient in HTML, CSS, JavaScript, jQuery, Node.js, and SQL database. 
-                            Aside from being a web developer, I spend my free time playing percussion instruments, painting, working 
-                            on physical fitness, and playing ice hockey. 
-                            
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <!-- END ABOUT SECTION-->
+    <!---------------------------------------->
+    <!-- START CONTACT SECTION -->
+
+    <section class="contactContainer">
+        <h1>Contact Information</h1>
+        <div class="phone">Phone Number</div>
+        <div class="number">610 - 764 - 3857</div>
+        <div class="email">Email</div>
+        <div class="Email">stevenJohnCantando@gmail.com</div>
+        <div class="resume"><a href="images/stevenJohnResume10_19.pdf" target="_blank">Resume</a></div>
+        <div class="linkedIn"><a href="https://www.linkedin.com/in/steven-john-cantando/" target="_blank">Linked In</a>
         </div>
-    </div>
+        <div class="github"><a href="https://github.com/stevenjohncantando" target="_blank">GitHub</a></div>
+    </section>
 
-    <div id="contactContainer">
-        <br>
-        <div class="contactInformation">
-            <div class="heading">
-                <h1>
-                    Contact Information
-                </h1>
-            </div>
-            <div class="phone">
-                <a>
-                    Phone Number:
-                    (610)-764-3857
-                </a>
+    <!-- END CONTACT SECTION -->
+    <!---------------------------------------->
+    <!-- START PROJECT SECTION -->
 
-            </div>
-
-            <br>
-
-            <div class="resume">
-                <a href="stevenJohnCantandoResume April 2019.pdf">Resume</a>
-            </div>
-
-            <br>
-
-            <div class="email">
-                <a href="mailto:stevenjohncantando@gmail.com">StevenJohnCantando@gmail.com</a>
-            </div>
-
-            <br>
-
-            <div class="github">
-                <a href="https://github.com/stevenjohncantando">GitHub Profile</a>
-            </div>
-
-            <br>
-
-            <div class="linkedIn">
-                <a href="https://www.linkedin.com/in/steven-john-cantando/">LinkedIn</a>
-                <br>
-                <div id="port"></div>
-            </div>
-        </div>
-    </div>
-
-    <br>
-
-    <!--------------------------------------------------------------->
-
-    <div id="portfolioContainer">
+    <section class="portContainer">
         <h1>
             Latest Projects
         </h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-12">
                 <div class="card">
                     <div class="card-image">
                         <img src="images/gritto.png">
@@ -153,11 +136,11 @@
                         <p>
                             Built With
 
-                    Phaser - The game-design framework used
-                    Dotenv - Secure data encryption
-                    Express - Server Creation
-                    Express-Handlebars - HTML Templating
-                    MySQL - Database Control
+                    Phaser - The game-design framework used <br />
+                    Dotenv - Secure data encryption<br />
+                    Express - Server Creation<br />
+                    Express-Handlebars - HTML Templating<br />
+                    MySQL - Database Control<br />
                     Sequelize - Database Querying               
                         </p>
                     </div>
@@ -168,7 +151,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-12">
                 <div class="card">
                     <div class="card-image">
                         <img src="images/stayTuned.jpeg">
@@ -185,7 +168,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-12">
                 <div class="card">
                     <div class="card-image">
                         <img src="images/All Aboard Train Schedule.jpeg">
@@ -202,7 +185,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-12">
                 <div class="card">
                     <div class="card-image">
                         <img src="images/gifApp.jpeg">
@@ -217,33 +200,12 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="row">
-            <div class="card">
-                <div class="card-body">
-                    <h1>All Projects: </h1>
+    </section>
 
-                    <a href="https://stevenjohncantando.github.io/unit-4-game/">- Crystal Collector</a>
-                    
-                    <br>
+    <!-- END PROJECT SECTION -->
+    <!---------------------------------------->
+    <!-- START JAVASCRIPT -->
 
-                    <a href="https://github.com/stevenjohncantando/clickyGame">- Clicky Game</a>
-
-                    <br>
-
-                    <a href="https://cryptic-badlands-54836.herokuapp.com/">- Gritt-O in Space</a>
-
-                </div>
-            </div>
-
-
-        </div>-->
-    </div>
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
 
         const slider = document.querySelector('.slider')
@@ -259,6 +221,8 @@
 
 
     </script>
+
+    <!-- END JAVASCRIPT -->
 </body>
 
 </html>

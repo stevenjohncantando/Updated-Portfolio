@@ -1,64 +1,105 @@
-.name {
-    font-size: 35px;
-    font-family: 'Poiret One', Cursive;
-    font-weight: bold;
+* {
+    color: whitesmoke;
+    font-family: 'Poiret One', cursive;
+}
+.slider img {
+    border-top: 1px solid white;
+    margin-bottom: 30px;
+}
+.slider {
+    margin-bottom: 20px;
+}
+body {
+    background: #141414;
 }
 
-#picture {
-    float: left;
-    margin-right: 20px;
-}
 
-
+/* // ----- NAVBAR ----- // */
 .navContainer {
     width: 80%;
     margin: auto;
 }
-
-.contactInformation {
-    border: solid 1px darkgray;
-    background: rgba(204, 204, 204, 0.5);
+.name {
+    font-size: 35px;
+    font-family: 'Poiret One', cursive;
 }
 
-#aboutContainer, #contactContainer {
-    width: 70%;
+
+/* // ----- LANDING PAGE ----- // */
+.landingpage {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+.landingpage h1 {
+    font-size: 65px;
+}
+.introduction {
+    margin-bottom: 75px;
+}
+
+
+/* // ----- ABOUT SECTION ----- // */
+.aboutContainer,
+.contactContainer,
+.portContainer {
+    width: 75%;
     margin: auto;
     text-align: center;
-    align-content: center;
+}
+.icon {
+    margin: 5px;
     margin-bottom: 50px;
-    
+}
+.bio {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+.aboutContainer img {
+    margin-bottom: 30px;
+}
+.aboutContainer {
+    margin-bottom: 10rem;
 }
 
-#portfolioContainer {
+
+/* // ----- CONTACT SECTION ----- // */
+.phone,
+.email,
+.resume,
+.linkedIn,
+.github {
+    font-size: 35px;
+}
+.linkedIn, 
+.github,
+.resume {
+    margin-bottom: 20px
+}
+.number,
+.Email {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contactContainer {
+    margin-bottom: 10rem;
+}
+
+
+/* // ----- PORTFOLIO SECTION ----- // */
+.portContainer {
     width: 60%;
     margin: auto;
     text-align: center;
-    align-content: center;
 }
-
-#projectLink {
-    width: 50%;
-    margin: auto;
+.portContainer p {
+    color: black;
+    font-size: 20px
 }
-
-.contactInformation, h1 {
-    font-family: 'Gruppo', cursive;
-
-}
-
-h2 {
+.portContainer a {
     font-size: 30px;
 }
-    
- .card-body, a  {
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-
+.portContainer h1 {
+    margin-bottom: 45px;
 }
-
-p {
-    font-size: 20px;
-}
-
-
-
